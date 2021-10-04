@@ -1,0 +1,1 @@
+// THE TEACHABLE MACHINE LINK IS -: https://teachablemachine.withgoogle.com/models/e6cLadyZO/models.json

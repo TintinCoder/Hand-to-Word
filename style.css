@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 144, 155);
+}
+
+.welcome {
+    margin-left: 40%;
+    width: 200px;
+    background-color: blanchedalmond;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+#info1 {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#info2 {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.prediction {
+    background-color: white;
+    color: green;
+    width: 100px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 47%;
+    margin-top: 10px;
+    /* padding: 5px; */
+    height: auto;
+}
+
+#prediction {
+    background-color: white;
+    color: green;
+    width: 100px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 47%;
+    margin-top: 10px;
+    height: auto;
+}
+
+.webcamBtn {
+    background-color: white;
+    color: green;
+    width: 150px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* margin-left: 47%; */
+    margin-top: 10px;
+    height: auto;
+}
+
+#selfie {
+    margin-top: 10px;
+}
+
+.webcam {
+    float: left;
+    margin-left: 10px;
+}
+
+.snapshot {
+    float: right;
+    margin-right: 10px;
+}
+
+.snapshotBtn {
+    background-color: white;
+    color: green;
+    width: 150px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#identify {
+    margin-top: 10px;
+}

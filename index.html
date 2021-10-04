@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand To Word</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="welcome">Hand To Word
+        <br>
+        <span>&#9994;</span>
+        <span>&#9997;</span>
+        <span>&#128077;</span>
+        <span>&#128079;</span>
+        <span>&#129304;</span>
+        <span>&#9754;</span>
+    </button>
+    <br>
+    <p id="info1">Take a selfie of the gesture you want to get know</p>
+    <p id="info2">The model is trained to identify the following actions -:</p>
+    <div class="icons">
+        <span>&#128076;</span>
+        <span>&#128077;</span>
+        <span>&#9996;</span>
+    </div>
+
+    <div class="predictions">
+        <button class="prediction">Prediction</button>
+        <p id="prediction"></p>
+    </div>
+
+    <div class="webcam">
+        <button class="webcamBtn">Webcam View -:</button>
+        <div id="webcam"></div>
+        <button class="btn btn-success" id="selfie" onclick="takeSelfie()">Take selfie</button>
+    </div>
+
+    <div class="snapshot">
+        <button class="snapshotBtn">Snapshot View -:</button>
+        <div id="snapshot"></div>
+        <button class="btn btn-success" id="identify" onclick="takeSelfie()">Identify selfie</button>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
